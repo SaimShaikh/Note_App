@@ -72,7 +72,7 @@ const Index = () => {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-4 md:p-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-black p-4 md:p-8">
       {/* Header */}
       <motion.div 
         initial={{ opacity: 0, y: -20 }}
@@ -81,15 +81,15 @@ const Index = () => {
       >
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <div>
-            <h1 className="text-4xl font-bold text-gray-800 mb-2">My Notes</h1>
-            <p className="text-gray-600">Capture your thoughts and ideas</p>
+            <h1 className="text-4xl font-bold text-white mb-2">My Notes</h1>
+            <p className="text-gray-400">Capture your thoughts and ideas</p>
           </div>
           
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={openCreateModal}
-            className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
+            className="bg-gradient-to-r from-blue-600 to-purple-700 text-white px-6 py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2"
           >
             <Plus size={20} />
             New Note
@@ -107,7 +107,7 @@ const Index = () => {
             animate={{ opacity: 1 }}
             className="text-center py-20"
           >
-            <div className="text-gray-400 mb-4">
+            <div className="text-gray-500 mb-4">
               {searchTerm ? 'No notes found matching your search' : 'No notes yet'}
             </div>
             {!searchTerm && (
@@ -115,7 +115,7 @@ const Index = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={openCreateModal}
-                className="text-blue-500 hover:text-blue-600 font-semibold"
+                className="text-blue-400 hover:text-blue-300 font-semibold"
               >
                 Create your first note
               </motion.button>
