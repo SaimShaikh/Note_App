@@ -81,7 +81,7 @@ const Index = () => {
       >
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
           <div>
-            <h1 className="text-4xl font-bold text-white mb-2">My Notes</h1>
+            <h1 className="text-4xl font-bold text-white mb-2">My Notes App By Saime Shaikh </h1>
             <p className="text-gray-400">Capture your thoughts and ideas</p>
           </div>
           
