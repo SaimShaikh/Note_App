@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+# 📝 Notes App
 
-## Project info
+A simple and user-friendly web application that allows users to create, edit, and delete notes. Built with a modern tech stack to help you organize your thoughts efficiently.
 
-**URL**: https://lovable.dev/projects/e5618d42-4d11-4ef6-9cc9-f70aaaee5188
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- ✅ Create a new note
+- 📝 Edit an existing note
+- 🗑️ Delete notes
+- ⚡ Instant updates with a clean UI
+- 💻 Runs locally with fast development setup
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e5618d42-4d11-4ef6-9cc9-f70aaaee5188) and start prompting.
+## 📦 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React (Frontend)
+- Vite or Create React App (depending on setup)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 How to Run This App Locally
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Follow these steps to set up the project on your machine:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/note-app.git
+cd note-app
 ```
 
-**Edit a file directly in GitHub**
+### 2. Install Dependance 
+```bash
+npm install
+```
+### 3. Run the Application 
+```bash
+npm run dev 
+```
+This helps ensure your app keeps fetching fresh weather data smoothly.
+<img width="1674" alt="Screenshot 2025-06-07 at 2 05 44 PM" src="https://github.com/user-attachments/assets/f6b022fd-d469-4a8d-8721-1efeaf01cde8" />
+<img width="1663" alt="Screenshot 2025-06-07 at 2 07 43 PM" src="https://github.com/user-attachments/assets/357ab23b-436a-4c1f-ab55-60869b3c5dd4" />
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e5618d42-4d11-4ef6-9cc9-f70aaaee5188) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
