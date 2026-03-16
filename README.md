@@ -41,7 +41,7 @@ npm run dev
 ```
 This helps ensure your app keeps fetching fresh weather data smoothly.
 <img width="1674" alt="Screenshot 2025-06-07 at 2 05 44 PM" src="https://github.com/user-attachments/assets/f6b022fd-d469-4a8d-8721-1efeaf01cde8" />
-<img width="1663" alt="Screenshot 2025-06-07 at 2 07 43 PM" src="https://github.com/user-attachments/assets/357ab23b-436a-4c1f-ab55-60869b3c5dd4" />
+
 
 
 
